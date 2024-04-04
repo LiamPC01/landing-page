@@ -67,12 +67,11 @@ div {
 #info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: space-between;
 }
 #info-content{
     padding-left: 20%;
     padding-right: 20%;
-    /* padding-top: 50px; */
     padding-bottom: 50px;
     
 }
@@ -126,6 +125,7 @@ div {
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
+    text-align: center;
 }
 #quote-author {
     text-align: end;
@@ -161,6 +161,8 @@ div {
 
     
 }
+
+
 /* footer */
 #footer {
     padding: 15px;
